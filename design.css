@@ -5,10 +5,10 @@ main{
 }
 body{
     margin: 0;
-    background: gray;
+    background: #6694cb;
     text-align: center;
 }
 h1{
-    border-bottom: 3px solid black;
+    border-bottom: 3px solid #b5bfc7;
     font-family: ui-rounded;
 }
