@@ -10,6 +10,8 @@ body{
 }
 h1{
     border-bottom: 3px solid #b5bfc7;
+    border-left: 5px #b5bfc7;
+    border-right: 5px #b5bfc7;
     font-family: ui-rounded;
 }
 h2{
@@ -17,10 +19,11 @@ h2{
     vertical-align: middle;
     align: right;
     word-wrap: break-word;
-    width: 400px;
+    width: 300px;
     height: 400px;
     margin: 10px;
-    font-size: 20px;
+    font-size: 15px;
+    font-family: ui-rounded;
 }
 h3{
     border-left: 5px #b5bfc7;
