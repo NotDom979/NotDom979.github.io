@@ -15,6 +15,7 @@ h1{
 h2{
     display:inline-block;
     vertical-align: middle;
+    align: right;
     word-wrap: break-word;
     width: 200px;
     height: 200px;
