@@ -33,8 +33,7 @@ h3{
 
 }
 .img_deg{
-    float: left;
-    width: 70%;
+    float: right;
 }
 .pos_cen{
     position: absolute;
