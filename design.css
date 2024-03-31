@@ -16,7 +16,7 @@ h1{
 }
 h2{
     display:inline-block;
-    vertical-align: left;
+    vertical-align: middle;
     align: right;
     word-wrap: break-word;
     width: 400px;
@@ -33,7 +33,7 @@ h3{
 
 }
 .img_deg{
-    float: left;
+    float: right;
 }
 .pos_cen{
     position: absolute;
