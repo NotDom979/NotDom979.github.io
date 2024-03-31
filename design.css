@@ -30,6 +30,9 @@ h3{
     border-right: 5px #b5bfc7;
     border-bottom: 5px #b5bfc7;
 }
+.img_deg{
+    float: left;
+}
 /* Slideshow Code from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_slideshow_auto*/ 
 /* Slideshow container */
 .slideshow-container {
