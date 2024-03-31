@@ -1,7 +1,7 @@
 main{
     width: 800px;
     height: 600px;
-    padding: 20px;
+    padding: 5px;
 }
 body{
     margin: 0;
@@ -24,14 +24,20 @@ h2{
     margin: 5px;
     font-size: 15px;
     font-family: ui-rounded;
+    
 }
 h3{
     border-left: 5px #b5bfc7;
     border-right: 5px #b5bfc7;
-    border-bottom: 5px #b5bfc7;
+
 }
 .img_deg{
     float: left;
+    width: 70%;
+}
+.pos_cen{
+    position: absolute;
+    left: 15%
 }
 /* Slideshow Code from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_slideshow_auto*/ 
 /* Slideshow container */
