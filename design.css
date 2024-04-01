@@ -18,7 +18,7 @@ h2{
     display:inline-block;
     vertical-align: middle;
     text-align: left;
-    align: center;
+    align: left;
     word-wrap: break-word;
     width: 200px;
     height: 300px;
@@ -42,7 +42,7 @@ h3{
 /* Slideshow Code from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_slideshow_auto*/ 
 /* Slideshow container */
 .slideshow-container {
-    max-width: 1000px;
+    max-width: 500px;
     position: relative;
     float: left;
     margin: auto;
