@@ -18,11 +18,11 @@ h2{
     display:inline-block;
     vertical-align: middle;
     text-align: left;
-    align: left;
+    align: center;
     word-wrap: break-word;
-    width: 200px;
+    width: 300px;
     height: 300px;
-    font-size: 15px;
+    font-size: 20px;
     font-family: ui-rounded;
     font-weight: normal;
     
