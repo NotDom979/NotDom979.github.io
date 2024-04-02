@@ -32,6 +32,10 @@ h3{
     border-right: 5px #b5bfc7;
 
 }
+p{
+  font-weight: bold;
+  font-size: 25px;
+}
 .img_deg{
     float: left;
 }
