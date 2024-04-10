@@ -65,6 +65,12 @@ p{
     float: left;
     margin: auto;
   }
+  .slideshow-container2 {
+    width: 1000px;
+    position: relative;
+    float: left;
+    margin: auto;
+  }
   
   /* Caption text */
   .text {

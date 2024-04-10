@@ -79,7 +79,7 @@
         <a href="/Zombies.html"><p>Game 1 - Zombies, Zombies, & more Zombies - October 2022 - Team of 3</p></a>
         <a href="/Zombies.html">
             <!-- <div class="img_deg"> -->
-                <div class="slideshow-container">
+                <div class="slideshow-container2">
                     <div class="mySlides2 fade">
                         <div class="numbertext">1 / 5</div>
                         <img src="Images/ZombiesMainMenu.JPG" style="width:100%" style="height:100%">
@@ -126,6 +126,7 @@
                 
                 <!-- </div> -->
             </a>
+            <br><br><br><br>
             <h2>
                 Genre:<br /> 
                 FPS, Zombie Survival<br /><br />
@@ -160,10 +161,13 @@
           setTimeout(showSlides, 3000); // Change image every 2 seconds
         }
         </script>
+
         <script>
+
             let slide2Index = 0;
-                showSlides2();
-                function showSlides2() {
+            showSlides2();
+                
+            function showSlides2() {
                     let i;
                     let slides = document.getElementsByClassName("mySlides2");
                     let dots = document.getElementsByClassName("dot2");
@@ -179,6 +183,6 @@
                     dots[slide2Index-1].className += " active";
                     setTimeout(showSlides2, 3000); // Change image every 2 seconds
                   }
-                  </script>
+        </script>
     </body>
 </html>
