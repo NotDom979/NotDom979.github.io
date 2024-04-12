@@ -75,10 +75,10 @@ p{
     left: 15%
 }
 .proj-info p{
- line-height: 1px;
+ font-weight: normal;
 }
 .proj-info h2{
-  line-height: 2px;
+  padding: 1px 1px 1px;
  }
 /* Slideshow Code from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_slideshow_auto*/ 
 /* Slideshow container */
