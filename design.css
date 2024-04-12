@@ -156,15 +156,17 @@ p{
   @media only screen and (min-width: 280px)
   {
     .h2{font-size: 12px}
-    .gif_deg{width: device-width;}
-    .gif_degRight{width: device-width;}
+    .gif_deg{width: 500px;}
+    .gif_degRight{width: 500px;}
+    .slideshow-container{max-width: device-width;}
+    .slideshow-container2{max-width: device-width;}
 
   }
   @media only screen and (min-width: 768px)
   {
     .h2{font-size: 20px}
-    .gif_deg{width: device-width;}
-    .gif_degRight{width: device-width;}
+    .gif_deg{width: 1000px;}
+    .gif_degRight{width: 1000px;}
 
   }
   .mySlides {display: none;}
