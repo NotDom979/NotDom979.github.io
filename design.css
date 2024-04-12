@@ -3,6 +3,9 @@ main{
     height: 600px;
     padding: 5px;
 }
+.wrapper{
+  width:100%;
+}
 body{
     margin: 0;
     background: #6694cb;
