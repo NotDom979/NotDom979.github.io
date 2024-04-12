@@ -56,6 +56,20 @@ p{
 .img_degRight{
   float: right;
 }
+.gif_degRight{
+  float: right;
+  max-width:1000px;
+  max-height:500px; 
+  height: 100%;
+   width: 100%;
+}
+.gif_deg{
+  float: left;
+  max-width:1000px;
+  max-height:500px; 
+  height: 100%;
+   width: 100%;
+}
 .pos_cen{
     position: absolute;
     left: 15%
@@ -138,6 +152,13 @@ p{
   /* On smaller screens, decrease text size */
   @media only screen and (max-width: 300px) {
     .text {font-size: 11px}
+  }
+  @media only screen and (max-width: 500px)
+  {
+    .h2{font-size: 12px}
+    .gif_deg{width: device-width;}
+    .gif_degRight{width: device-width;}
+
   }
   .mySlides {display: none;}
   .mySlides2 {display: none;}
