@@ -60,6 +60,14 @@ p{
     position: absolute;
     left: 15%
 }
+.proj-info p{
+ padding: 10px 10px 15px;
+ line-height: 22px;
+}
+.proj-info h2{
+  padding: 10px 10px 15px;
+  line-height: 44px;
+ }
 /* Slideshow Code from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_slideshow_auto*/ 
 /* Slideshow container */
 .slideshow-container {
