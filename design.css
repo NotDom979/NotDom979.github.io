@@ -61,12 +61,10 @@ p{
     left: 15%
 }
 .proj-info p{
- padding: 0px 2px 3px;
- line-height: 5px;
+ line-height: 1px;
 }
 .proj-info h2{
-  padding: 2px 2px 3px;
-  line-height: 10px;
+  line-height: 2px;
  }
 /* Slideshow Code from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_slideshow_auto*/ 
 /* Slideshow container */
