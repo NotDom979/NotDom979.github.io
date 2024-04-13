@@ -58,17 +58,17 @@ p{
 }
 .gif_degRight{
   float: right;
-  max-width:1000px;
-  max-height:500px; 
-  height: 100%;
-   width: 100%;
+  /*max-width:1000px;
+  max-height:500px; */
+  height: 500px;
+  width: 1000px;
 }
 .gif_deg{
   float: left;
-  max-width:1000px;
-  max-height:500px; 
-  height: 100%;
-   width: 100%;
+  /*max-width:1000px;
+  max-height:500px; */
+  height: 500px;
+  width: 1000px;
 }
 .pos_cen{
     position: absolute;
