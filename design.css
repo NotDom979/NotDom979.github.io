@@ -156,8 +156,11 @@ p{
   @media only screen and (min-width: 280px)
   {
     .h2{font-size: 10px}
-    /*.gif_deg{width: 500px;}
-    .gif_degRight{width: 500px;}*/
+    .h4{font-size: 10px}
+    .gif_deg{max-width: 500px;}
+    .gif_degRight{max-width: 500px;}
+    .gif_deg{max-height: 250px;}
+    .gif_degRight{max-height: 250px;}
     .slideshow-container{max-width: device-width;}
     .slideshow-container2{max-width: device-width;}
 
@@ -165,8 +168,11 @@ p{
   @media only screen and (min-width: 768px)
   {
     .h2{font-size: 20px}
-    .gif_deg{width: 100%;}
-    .gif_degRight{width: 100%;}
+    .h4{font-size: 20px}
+    .gif_deg{max-width: 750px;}
+    .gif_degRight{max-width: 750px;}
+    .gif_deg{max-height: 400px;}
+    .gif_degRight{max-height: 400px;}
 
   }
   .mySlides {display: none;}
