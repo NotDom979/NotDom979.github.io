@@ -60,15 +60,15 @@ p{
   float: right;
   max-width:1000px;
   max-height:1000px;
-  height: 1000px;
-  width: 1000px;
+  height: auto;
+  width: device-width/2;
 }
 .gif_deg{
   float: left;
   max-width: 1000px;
   max-height:1000px;
-  height: 1000px;
-  width: 1000px;
+  height: auto;
+  width: 100%;
 }
 .pos_cen{
     position: absolute;
