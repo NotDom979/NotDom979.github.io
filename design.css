@@ -161,10 +161,10 @@ p{
   {
     .h2{font-size: 8px}
     .h4{font-size: 8px}
-    /*.gif_deg{max-width: 500px;}
+    .gif_deg{max-width: 500px;}
     .gif_degRight{max-width: 500px;}
     .gif_deg{max-height: 250px;}
-    .gif_degRight{max-height: 250px;}*/
+    .gif_degRight{max-height: 250px;}
     .slideshow-container{max-width: device-width;}
     .slideshow-container2{max-width: device-width;}
 
@@ -173,10 +173,10 @@ p{
   {
     .h2{font-size: 20px}
     .h4{font-size: 20px}
-    /*.gif_deg{max-width: 800px;}
+    .gif_deg{max-width: 800px;}
     .gif_degRight{max-width: 800px;}
     .gif_deg{max-height: 400px;}
-    .gif_degRight{max-height: 400px;}*/
+    .gif_degRight{max-height: 400px;}
 
   }
   .mySlides {display: none;}
