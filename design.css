@@ -16,6 +16,8 @@ h1{
     border-left: 5px #b5bfc7;
     border-right: 5px #b5bfc7;
     font-family: ui-rounded;
+    vertical-align: center;
+    text-align: center;
 }
 h2{
     display:inline-block;
@@ -153,12 +155,12 @@ p{
   
   /* On smaller screens, decrease text size */
   @media only screen and (max-width: 300px) {
-    .text {font-size: 11px}
+    .text {font-size: 8px}
   }
   @media only screen and (min-width: 280px)
   {
-    .h2{font-size: 10px}
-    .h4{font-size: 10px}
+    .h2{font-size: 8px}
+    .h4{font-size: 8px}
     /*.gif_deg{max-width: 500px;}
     .gif_degRight{max-width: 500px;}
     .gif_deg{max-height: 250px;}
