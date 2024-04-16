@@ -25,8 +25,9 @@ h2{
     text-align: left;
     align: right;
     word-wrap:normal;
-    width: fit-content;
+    width: 700px;
     height: 200px;
+    overflow-wrap: break-word;
     font-size: 30px;
     font-family: ui-rounded;
     font-weight: normal;
@@ -42,7 +43,8 @@ h4{
   text-align: left;
   align: left;
   word-wrap:normal;
-  width: fit-content;
+  width: 700px;
+  overflow-wrap: break-word;
   height: 200px;
   font-size: 30px;
   font-family: ui-rounded;
