@@ -60,16 +60,16 @@ p{
 }
 .gif_degRight{
   float: right;
-  padding-right: 50px;
-  max-width:1000px;
+  padding-right: 25px;
+  max-width:850px;
   max-height:1000px;
   height: auto;
   width: 100%;
 }
 .gif_deg{
   float: left;
-  padding-left: 50px;
-  max-width: 1000px;
+  padding-left: 25px;
+  max-width: 850px;
   max-height:1000px;
   height: auto;
   width: 100%;
