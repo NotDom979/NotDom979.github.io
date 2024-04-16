@@ -60,7 +60,7 @@ p{
 }
 .gif_degRight{
   float: right;
-  padding-right: 100px;
+  padding-right: 50px;
   max-width:1000px;
   max-height:1000px;
   height: auto;
@@ -68,7 +68,7 @@ p{
 }
 .gif_deg{
   float: left;
-  padding-left: 100px;
+  padding-left: 50px;
   max-width: 1000px;
   max-height:1000px;
   height: auto;
