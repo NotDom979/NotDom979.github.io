@@ -29,7 +29,7 @@ h2{
     width: 75%;
     height: 200px;
     overflow-wrap: break-word;
-    font-size: 30px;
+    font-size: max(25px, 2rem);
     font-family: ui-rounded;
     font-weight: normal;
     
@@ -167,7 +167,7 @@ p{
     .article{font-size: 8px;}
     .gif_deg{padding-left: 0px;}
     .gif_degRight{padding-right: 0px;}
-    .h2{padding-bottom: 150px;}
+     /*.h2{padding-bottom: 150px;}*/
   }
   @media all and (max-width: 280px)
   {
@@ -183,7 +183,7 @@ p{
     .gif_degRight{max-height: 250px;}
     .article{font-size: 8px;}
     .slideshow-container{max-width: device-width;}
-    .h2{padding-bottom: 150px;}
+    /*.h2{padding-bottom: 150px;}*/
     .slideshow-container2{max-width: device-width;}
 
   }
@@ -199,7 +199,7 @@ p{
     .article{font-size: 8px;}
     .gif_degRight{padding-right: 0px;}
     .gif_deg{max-height: 250px;}
-    .h2{padding-bottom: 150px;}
+  /*.h2{padding-bottom: 150px;}*/
     .gif_degRight{max-height: 250px;}
     .slideshow-container{max-width: device-width;}
     .slideshow-container2{max-width: device-width;}
@@ -216,7 +216,7 @@ p{
     .gif_deg{max-width: 800px;}
     .gif_degRight{max-width: 800px;}
     .article{font-size: 8px;}
-    .h2{padding-bottom: 150px;}
+ /*.h2{padding-bottom: 150px;}*/
     .gif_deg{max-height: 400px;}
     .gif_degRight{max-height: 400px;}
 
