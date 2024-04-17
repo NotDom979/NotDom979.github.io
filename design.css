@@ -151,6 +151,8 @@ p{
     animation-name: fade;
     animation-duration: 1.5s;
   }
+  .mySlides {display: none;}
+  .mySlides2 {display: none;}
   
   @keyframes fade {
     from {opacity: .4} 
@@ -219,5 +221,3 @@ p{
     .gif_degRight{max-height: 400px;}
 
   }
-  .mySlides {display: none;}
-  .mySlides2 {display: none;}
