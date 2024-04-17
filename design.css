@@ -160,7 +160,7 @@ p{
   }
   
   /* On smaller screens, decrease text size */
-  @media screen and (max-width: 300px) {
+  @media all and (max-width: 300px) {
     .text {font-size: 8px}
     .h4{width: 500px;}
     .h2{width: 500px;}
@@ -169,7 +169,7 @@ p{
     .gif_degRight{padding-right: 0px;}
     .h2{padding-bottom: 150px;}
   }
-  @media screen and (max-width: 280px)
+  @media all and (max-width: 280px)
   {
     .h2{font-size: 8px}
     .h4{font-size: 8px}
@@ -187,7 +187,7 @@ p{
     .slideshow-container2{max-width: device-width;}
 
   }
-  @media screen and (max-width: 430px)
+  @media all and (max-width: 430px)
   {
     .h2{font-size: 8px}
     .h4{font-size: 8px}
@@ -205,7 +205,7 @@ p{
     .slideshow-container2{max-width: device-width;}
 
   }
-  @media screen and (max-width: 768px)
+  @media all and (max-width: 768px)
   {
     .h2{font-size: 14px}
     .h4{font-size: 14px}
