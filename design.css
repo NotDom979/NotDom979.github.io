@@ -165,8 +165,7 @@ p{
     .article{font-size: 8px;}
     .gif_deg{padding-left: 0px;}
     .gif_degRight{padding-right: 0px;}
-    .slideshow-container2{padding-top: 40px;}
-    .gif_degRight{padding-top: 40px;}
+    .h2{padding-bottom: 40px;}
   }
   @media only screen and (max-width: 280px)
   {
@@ -182,8 +181,7 @@ p{
     .gif_degRight{max-height: 250px;}
     .article{font-size: 8px;}
     .slideshow-container{max-width: device-width;}
-    .slideshow-container2{padding-top: 40px;}
-    .gif_degRight{padding-top: 40px;}
+    .h2{padding-bottom: 40px;}
     .slideshow-container2{max-width: device-width;}
 
   }
@@ -199,10 +197,9 @@ p{
     .article{font-size: 8px;}
     .gif_degRight{padding-right: 0px;}
     .gif_deg{max-height: 250px;}
-    .gif_degRight{padding-top: 40px;}
+    .h2{padding-bottom: 40px;}
     .gif_degRight{max-height: 250px;}
     .slideshow-container{max-width: device-width;}
-    .slideshow-container2{padding-top: 40px;}
     .slideshow-container2{max-width: device-width;}
 
   }
@@ -212,13 +209,12 @@ p{
     .h4{font-size: 14px}
     .h4{width: 550px;}
     .h2{width: 550px;}
-    .slideshow-container2{padding-top: 40px;}
     .gif_deg{padding-left: 0px;}
     .gif_degRight{padding-right: 0px;}
     .gif_deg{max-width: 800px;}
-    .gif_degRight{padding-top: 40px;}
     .gif_degRight{max-width: 800px;}
     .article{font-size: 8px;}
+    .h2{padding-bottom: 40px;}
     .gif_deg{max-height: 400px;}
     .gif_degRight{max-height: 400px;}
 
