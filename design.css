@@ -206,7 +206,7 @@ p{
     .slideshow-container2{max-width: device-width;}
 
   }*/
-  @media all and (max-width: 768px)
+  @media only all and (max-width: 768px)
   {
     .h2{font-size: 25px}
     .h4{font-size: 25px}
