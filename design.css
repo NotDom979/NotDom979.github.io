@@ -29,7 +29,7 @@ h2{
     width: 75%;
     height: 200px;
     overflow-wrap: break-word;
-    font-size: max(25px, 2rem);
+    font-size: max(25px, 1.1rem);
     font-family: ui-rounded;
     font-weight: normal;
     
@@ -46,6 +46,7 @@ h4{
   word-wrap:normal;
   max-width: 700px;
   width: 75%;
+  font-size: max(25px, 1.1rem);
   overflow-wrap: break-word;
   height: 200px;
   font-size: 30px;
