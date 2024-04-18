@@ -219,5 +219,6 @@ p{
     .article{font-size: 8px;}
     .gif_deg{max-height: 400px;}
     .gif_degRight{max-height: 400px;}
+    .gif_degRight{padding-top: 100px;}
 
   }
