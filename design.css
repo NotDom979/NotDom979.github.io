@@ -4,8 +4,12 @@ main{
     padding: 5px;
 }
 .wrapper{
-  width:100%;
+  max-width: 700px;
+  width: 75%;
+  height: 200px;
+  display:inline-block;
 }
+
 body{
     margin: 0;
     background: #6694cb;
@@ -18,6 +22,15 @@ h1{
     font-family: ui-rounded;
     vertical-align: center;
     text-align: center;
+}
+.simple-desc{
+  text-align: left;
+  vertical-align: right;
+  word-wrap: normal;
+  overflow-wrap: break-word;
+  font-size: 27px;
+  font-family: ui-rounded;
+  font-weight: normal;
 }
 h2{
     display:inline-block;
