@@ -23,7 +23,7 @@ h1{
     vertical-align: center;
     text-align: center;
 }
-.simple-desc{
+.simple-desc p{
   text-align: left;
   vertical-align: right;
   word-wrap: normal;
