@@ -31,22 +31,16 @@ h1{
   font-size: 27px;
   font-family: ui-rounded;
   font-weight: normal;
-  padding-bottom: 50px;
+  padding-bottom: 25px;
 }
-h2{
-    display:inline-block;
-    vertical-align: right;
-    text-align: left;
-    align: right;
-    word-wrap:normal;
-    max-width: 700px;
-    width: 75%;
-    height: 200px;
-    overflow-wrap: break-word;
-    font-size: 27px;
-    font-family: ui-rounded;
-    font-weight: normal;
-    
+.simple-desc h2{
+  vertical-align: right;
+  text-align: left;
+   word-wrap:normal;
+   font-size: 27px;
+   font-family: ui-rounded;
+   font-weight: normal;
+   
 }
 h3{
     border-left: 5px #b5bfc7;
@@ -95,10 +89,44 @@ h4{
 }
 .proj-info p{
  font-weight: normal;
+ vertical-align: right;
+ text-align: left;
+  word-wrap:normal;
+  font-size: 27px;
+  font-family: ui-rounded;
+  font-weight: normal;
+  
 }
 .proj-info h2{
   padding: 1px 1px 1px;
+  vertical-align: right;
+  text-align: left;
+   word-wrap:normal;
+   font-size: 27px;
+   font-family: ui-rounded;
+   font-weight: normal;
+   
  }
+ .proj-infoL p{
+  font-weight: normal;
+  vertical-align: right;
+  text-align: left;
+   word-wrap:normal;
+   font-size: 27px;
+   font-family: ui-rounded;
+   font-weight: normal;
+   
+ }
+ .proj-infoL h2{
+   padding: 1px 1px 1px;
+   vertical-align: right;
+   text-align: left;
+    word-wrap:normal;
+    font-size: 27px;
+    font-family: ui-rounded;
+    font-weight: normal;
+    
+  }
 /* Slideshow Code from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_slideshow_auto*/ 
 /* Slideshow container */
 .slideshow-container {
@@ -231,5 +259,6 @@ h4{
     .gif_degRight{max-height: 400px;}
     .gif_degRight{padding-top: 100px;}
     .simple-desc p{font-size: 15px;}
+    .simple-desc h2{font-size: 20px;}
 
   }
