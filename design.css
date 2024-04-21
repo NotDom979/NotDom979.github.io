@@ -92,7 +92,7 @@ h4{
  vertical-align: right;
  text-align: left;
   word-wrap:normal;
-  font-size: 27px;
+  font-size: 30px;
   font-family: ui-rounded;
   font-weight: normal;
   
@@ -102,29 +102,29 @@ h4{
   vertical-align: right;
   text-align: left;
    word-wrap:normal;
-   font-size: 27px;
+   font-size: 33px;
    font-family: ui-rounded;
-   font-weight: normal;
+   font-weight: bold;
    
  }
  .proj-infoL p{
   font-weight: normal;
-  vertical-align: right;
+  vertical-align: left;
   text-align: left;
    word-wrap:normal;
-   font-size: 27px;
+   font-size: 30px;
    font-family: ui-rounded;
    font-weight: normal;
    
  }
  .proj-infoL h2{
    padding: 1px 1px 1px;
-   vertical-align: right;
+   vertical-align: left;
    text-align: left;
     word-wrap:normal;
-    font-size: 27px;
+    font-size: 33px;
     font-family: ui-rounded;
-    font-weight: normal;
+    font-weight: bold;
     
   }
 /* Slideshow Code from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_slideshow_auto*/ 
@@ -254,11 +254,14 @@ h4{
     .gif_degRight{padding-right: 0px;}
     .gif_deg{max-width: 800px;}
     .gif_degRight{max-width: 800px;}
-    .article{font-size: 8px;}
     .gif_deg{max-height: 400px;}
     .gif_degRight{max-height: 400px;}
     .gif_degRight{padding-top: 100px;}
     .simple-desc p{font-size: 15px;}
     .simple-desc h2{font-size: 20px;}
+    .proj-info p{font-size: 25;}
+    .proj-info h2{font-size: 27;}
+    .proj-infoL p{font-size: 25;}
+    .proj-infoL h2{font-size: 27;}
 
   }
