@@ -126,6 +126,7 @@ h4{
  .proj-infoL h2{
    padding: 1px 1px 1px;
    vertical-align: left;
+   text-decoration-line: underline;
    text-align: left;
    padding-left: 19px;
     word-wrap:normal;
