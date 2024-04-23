@@ -4,8 +4,12 @@ main{
     padding: 5px;
 }
 .wrapper{
-  width:100%;
+  max-width: 700px;
+  width: 75%;
+  height: 200px;
+  display:inline-block;
 }
+
 body{
     margin: 0;
     background: #6694cb;
@@ -19,24 +23,30 @@ h1{
     vertical-align: center;
     text-align: center;
 }
-h2{
-    display:inline-block;
-    vertical-align: right;
-    text-align: left;
-    align: right;
-    word-wrap:normal;
-    max-width: 700px;
-    width: 75%;
-    height: 200px;
-    overflow-wrap: break-word;
-    font-size: 27px;
-    font-family: ui-rounded;
-    font-weight: normal;
-    
+.simple-desc p{
+  text-align: left;
+  vertical-align: right;
+  word-wrap: normal;
+  padding-bottom: 5px;
+
+  overflow-wrap: break-word;
+  font-size: 30px;
+  font-family: ui-rounded;
+  font-weight: normal;
+  padding-left: 25px;
+}
+.simple-desc h2{
+  vertical-align: right;
+  text-align: left;
+   word-wrap:normal;
+   font-size: 33px;
+   font-family: ui-rounded;
+   font-weight: bold;
+   
 }
 h3{
-    border-left: 5px #b5bfc7;
-    border-right: 5px #b5bfc7;
+    font-size: 33px;
+    font-family: ui-rounded;
 }
 h4{
   display:inline-block;
@@ -52,10 +62,6 @@ h4{
   font-size: 30px;
   font-family: ui-rounded;
   font-weight: normal;
-}
-p{
-  font-weight: bold;
-  font-size: 25px;
 }
 .img_deg{
     float: left;
@@ -85,10 +91,50 @@ p{
 }
 .proj-info p{
  font-weight: normal;
+ vertical-align: right;
+ text-align: left;
+  word-wrap:normal;
+  padding-left: 20px;
+  font-size: 30px;
+  font-family: ui-rounded;
+  font-weight: normal;
+  
 }
 .proj-info h2{
   padding: 1px 1px 1px;
+  vertical-align: right;
+  text-align: left;
+   word-wrap:normal;
+   text-decoration-line: underline;
+   font-size: 33px;
+   padding-left: 19px;
+   font-family: ui-rounded;
+   font-weight: bold;
+   
  }
+ .proj-infoL p{
+  font-weight: normal;
+  vertical-align: left;
+  text-align: left;
+  padding-left: 20px;
+   word-wrap:normal;
+   font-size: 30px;
+   font-family: ui-rounded;
+   font-weight: normal;
+   
+ }
+ .proj-infoL h2{
+   padding: 1px 1px 1px;
+   vertical-align: left;
+   text-decoration-line: underline;
+   text-align: left;
+   padding-left: 19px;
+    word-wrap:normal;
+    font-size: 33px;
+    font-family: ui-rounded;
+    font-weight: bold;
+    
+  }
 /* Slideshow Code from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_slideshow_auto*/ 
 /* Slideshow container */
 .slideshow-container {
@@ -187,11 +233,9 @@ p{
     /*.h2{padding-bottom: 150px;}
     .slideshow-container2{max-width: device-width;}
 
-  }
+  }*/
   @media all and (max-width: 430px)
   {
-    .h2{font-size: 8px}
-    .h4{font-size: 8px}
     .h4{width: 550px;}
     .h2{width: 550px;}
     .gif_deg{max-width: 500px;}
@@ -200,25 +244,32 @@ p{
     .article{font-size: 8px;}
     .gif_degRight{padding-right: 0px;}
     .gif_deg{max-height: 250px;}
-  /*.h2{padding-bottom: 150px;}
     .gif_degRight{max-height: 250px;}
-    .slideshow-container{max-width: device-width;}
-    .slideshow-container2{max-width: device-width;}
+    .proj-info p{font-size: 18;}
+    .proj-info h2{font-size: 22;}
+    .proj-infoL p{font-size: 18;}
+    .proj-infoL h2{font-size: 22;}
+    .simple-desc p{font-size: 18px;}
+    .simple-desc h2{font-size: 22px;}
 
-  }*/
-  @media only all and (max-width: 768px)
+
+  }
+  @media all and (max-width: 768px)
   {
-    .h2{font-size: 25px}
-    .h4{font-size: 25px}
     .h4{width: 550px;}
     .h2{width: 550px;}
     .gif_deg{padding-left: 0px;}
     .gif_degRight{padding-right: 0px;}
     .gif_deg{max-width: 800px;}
     .gif_degRight{max-width: 800px;}
-    .article{font-size: 8px;}
     .gif_deg{max-height: 400px;}
     .gif_degRight{max-height: 400px;}
     .gif_degRight{padding-top: 100px;}
+    .simple-desc p{font-size: 18px;}
+    .simple-desc h2{font-size: 22px;}
+    .proj-info p{font-size: 22;}
+    .proj-info h2{font-size: 25;}
+    .proj-infoL p{font-size: 22;}
+    .proj-infoL h2{font-size: 25;}
 
   }
